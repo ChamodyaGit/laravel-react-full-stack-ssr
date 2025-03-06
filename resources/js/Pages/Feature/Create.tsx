@@ -60,6 +60,7 @@ export default function Create({ feature }: { feature: Feature }) {
               <TextAreaInput
                 id="description"
                 className="mt-1 block w-full"
+                rows={6}
                 value={data.description}
                 onChange={(e) => setData('description', e.target.value)}
                 required
